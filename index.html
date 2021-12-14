@@ -6,12 +6,43 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body id="container">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-      <header id="header">
-        
-
-      </header>>
+      <header id="header" >
+        <img width="150" height="150" id="header-img" src="https://pngimg.com/uploads/github/github_PNG28.png" alt="image"/>
+         <!-- <h1>Our shop</h1> -->
+          <nav id='nav-bar'>
+            <ul>
+              <a href="#product" class="nav-link"><li>Products</li></a>
+              <a href="#pressentation" class="nav-link"><li>Pressentation</li></a>
+              <a href="#contact" class="nav-link"><li>Contact</li></a>
+            </ul>
+          </nav>
+            </header>
+          <div>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+              <input id="email" name="email" type="email" placeholder="Enter Email" required/>
+              <input type="submit" id="submit" value="submit"/>
+            </form>
+          </div>          
+    
+     
+        <h1>My Landing Page</h1>        
+        <section id="product" >
+          <p>Puma</p>
+        </section>
+        <br>
+        <section id="pressentation">
+          <h1>Pressentation</h1>
+          <iframe id="video" width="350" height="280" frameborder="0" allowfullscreen src="https://www.youtube.com/watch?v=FNiZXIVkfVo"></iframe>
+        </section> 
+        <br>
+        <section id="contact">
+          <h1>Contact</h1>
+          <p>For more... </p>
+        </section> 
+        <br>
+      
     <script  src="js/index.js"></script>
   </body>
 </html>
